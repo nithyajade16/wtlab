@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <script type="text/javascript">
+           
+            //var a=0,b=1;
+             var c;
+            var a=0
+                var b=1;
+                  
+            var arr1=new Array();
+            var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+            function frequency(arr1)
+            {
+             
+                for(var i=0;i<=arr1.length;i++)
+                    {
+                       for(var j=i;j<arr1.length;j++)
+                           {
+                               if(arr1[i]==arr1[j])
+                                   a++;
+                               if(b<a)
+                                   {
+                                       b=a;
+                                       c=arr1[i];
+                                   }
+                           }
+                        a=0;
+                    }
+                console.log(c+"("+b+"times)");
+            }
+           
+        </script>
+    
+    </head>
+    <body>
+        <script type="text/javascript">
+            
+            console.log(frequency(arr1));
+            
+        </script>
+    </body>
+</html>
